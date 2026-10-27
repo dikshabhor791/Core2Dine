@@ -4,85 +4,112 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Booking Form</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
       <h1>Grand Cre2Dine Hotel -Booking</h1>
       <p>Complete the form below to reserve your room.</p>
-      <nav>
-        <a href="">Home</a>&Tab;&nbsp; <a href="">Rooms</a>&Tab;&nbsp;
-        <a href="">Room Comparison</a>&Tab;&nbsp;
-        <a href="">Booking</a>&Tab;&nbsp; <a href="">Restaurant</a>&Tab;&nbsp;
-        <a href="">Gallery</a>&Tab;&nbsp; <a href="">Facilities</a>&Tab;&nbsp;
-        <a href="">Media</a>&Tab;&nbsp; <a href="">Contact & FAQ</a>&Tab;&nbsp;
+     <nav>
+        <a href="./index.html">Home</a>&Tab;&nbsp;
+        <a href="./rooms.html">Rooms</a>&Tab;&nbsp;
+        <a href="./comparison.html">Room Comparison</a>&Tab;&nbsp;
+        <b><a href="./bookingform.html">Booking</a>&Tab;&nbsp;</b>
+        <a href="./restaurantpage.html">Restaurant</a>&Tab;&nbsp;
+        <a href="./gallery.html">Gallery</a>&Tab;&nbsp;
+        <a href="./facilities.html">Facilities</a>&Tab;&nbsp;
+        <a href="./media.html">Media</a>&Tab;&nbsp;
+        <a href="./contackus.html">Contact & FAQ</a>&Tab;&nbsp;
       </nav>
     </header>
     <hr />
     <main>
-      <h2>Hotel Booking Form</h2>
-      <p>
-        Please provide the required information to complete your hotel
-        reservation.
-      </p>
-      <div>
-        <br />
-        <fieldset>
-          <legend><b>Guest Information</b></legend>
-          <label>Full Name :</label>
-          <input type="text" placeholder="Enter your full name " /><br /><br />
-          <label>Email :</label>
-          <input type="email" placeholder="example@gmail.com " /><br /><br />
-          <label>Phone Number:</label>
-          <input
-            type="tel"
-            placeholder="Enter 10-digit phone number "
-            maxlength="10"
-          /><br /><br />
-        </fieldset>
-        <br />
-        <fieldset>
-          <legend><b>Stay Details</b></legend>
-          <label>Check-in Date :</label>
-          <input type="month" /><br /><br />
-          <label>Check-out Date :</label>
-          <input type="month" /><br /><br />
-          <label for="">Number of Guests :</label>
-          <input type="number" min="1" /><br /><br />
-          <label for="">Room Type</label>
-          <select name="" id="">
-            <option value="" selected disabled>Select Room Typr</option>
-            <option value="">Standard Room</option>
-            <option value="">deluxe Room</option>
-            <option value="">Exective Room</option>
-            <option value="">Family Sute</option>
-            <option value="">Presidential Suite</option></select
-          ><br /><br />
+      <section>
+          <h2>Hotel Booking Form</h2>
+          <p>
+            Please provide the required information to complete your hotel
+            reservation.
+          </p>
 
-          <label>Number of Rooms</label>
-          <input type="number" name="" id="" /><br /><br />
-        </fieldset>
-        <br />
-        <fieldset>
-          <legend><b>Meal Preference</b></legend>
-          <label for="">Select your meal preference :</label>
-          <input type="radio" />Vegetarian <br />
-          <input type="radio" />Non-Vegetarian <br />
-          <input type="radio" />vegan <br />
-        </fieldset>
-        <br />
-        <fieldset>
-          <legend><b>Airport Pickup</b></legend>
-          <label for="">DO you reuire airport pickup?</label><br /><br />
-          <input type="radio" />Yes <input type="radio" />No
-        </fieldset>
-        <br />
-        <fieldset>
-          <legend><b>Additional Information</b></legend>
-          <label for="">Special requests : </label><br>
-          <textarea name="" id=""></textarea><br /><br />
-        </fieldset>
-      </div>
-      <br />
+          <section>
+            <br />
+
+            <fieldset>
+              <legend><b>Guest Information</b></legend>
+              <label>Full Name :</label>
+              <input type="text" placeholder="Enter your full name " /><br /><br />
+              <label>Email :</label>
+              <input type="email" placeholder="example@gmail.com " /><br /><br />
+              <label>Phone Number:</label>
+              <input
+                type="tel"
+                placeholder="Enter 10-digit phone number "
+                maxlength="10"
+              /><br /><br />
+            </fieldset>
+            
+            <br />
+
+            <fieldset>
+              <legend><b>Stay Details</b></legend>
+              <label>Check-in Date :</label>
+              <input type="month" /><br /><br />
+              <label>Check-out Date :</label>
+              <input type="month" /><br /><br />
+              <label for="">Number of Guests :</label>
+              <input type="number" min="1" /><br /><br />
+              <label for="">Room Type</label>
+              <select name="" id="">
+                <option value="" selected disabled>Select Room Typr</option>
+                <option value="">Standard Room</option>
+                <option value="">deluxe Room</option>
+                <option value="">Exective Room</option>
+                <option value="">Family Sute</option>
+                <option value="">Presidential Suite</option></select
+              ><br /><br />
+
+              <label>Number of Rooms</label>
+              <input type="number" name="" id="" /><br /><br />
+            </fieldset>
+
+            <br />
+
+            <fieldset>
+              <legend><b>Meal Preference</b></legend>
+              <label for="">Select your meal preference :</label>
+              <input type="radio" />Vegetarian <br />
+              <input type="radio" />Non-Vegetarian <br />
+              <input type="radio" />vegan <br />
+            </fieldset>
+
+            <br />
+
+            <fieldset>
+              <legend><b>Airport Pickup</b></legend>
+              <label for="">DO you reuire airport pickup?</label><br /><br />
+              <input type="radio" />Yes <input type="radio" />No
+            </fieldset>
+
+            <br />
+
+            <fieldset>
+              <legend><b>Additional Information</b></legend>
+              <label for="">Special requests : </label><br>
+              <textarea name="" id=""></textarea><br /><br />
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+              <legend><b>submit Booking</b></legend>
+              <button>Submit Booking</button>
+              <button>Reset Booking</button>
+            </fieldset>
+
+          </section>
+
+          <br />
+      </section>
     </main>
     <hr />
     <footer>
